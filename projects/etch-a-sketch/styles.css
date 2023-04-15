@@ -1,0 +1,61 @@
+/* 
+.container {
+    outline: 2px solid red;
+    /* width: 256px;
+    
+} */
+
+
+/* .container {
+    width: 500px;
+    outline: 2px solid lime;
+}
+
+.container * {
+    display: flex;
+}
+
+
+.ASD:hover {
+    background-color: red;
+}
+
+
+.ASD {
+
+    height: 50px;
+    width: 100px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.row.container {
+    /* outline: 2px solid lime; */
+    display: flex;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+
+.square:hover {
+    background-color: red;
+}
