@@ -1,9 +1,10 @@
 
 let rows = document.querySelectorAll('.row.container');
-let defaultColor = "red";
+let defaultColor = "black";
 console.log(rows.length);
 
 
+// Create Grid 16x16 = 256squares
 for (const row of rows) {
     for (let i = 0; i < 16; i++) {
         let squares = document.createElement("div");
@@ -25,6 +26,6 @@ const btn = document.querySelector('button');
 
 btn.addEventListener("click", function () { 
     for (const square of squares) {
-        square.style.backgroundColor = "black";
+        square.style.backgroundColor = "white";
     }
 });
