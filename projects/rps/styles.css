@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 2em;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-family: 'Lilita One', cursive;
+  }
+  
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 2rem;
+  }
+  
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  
+  .buttons {
+    font-size: 4rem;
+  }
+
+  .container {
+    width: 500px;
+    height: 200px;
+    outline: 2px solid lime;
+  }
